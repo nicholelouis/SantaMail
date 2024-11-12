@@ -1,0 +1,56 @@
+.navbar-custom { 
+    background-color: #A6121F; 
+}
+.navbar-custom .navbar-brand, .navbar-custom .nav-link { 
+    color: #FFFFFF; 
+}
+.navbar-custom .nav-link:hover { 
+    color: #D4AF37; 
+}
+.fondo-imagen {
+    background-image: url('../img/bg-home.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    color: white;
+}
+.navidad-font {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.bg2 { background-color: #A6121F; 
+    color: white; 
+    background-image: url('../img/forest-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg4 { background-color: #A6121F; 
+    color: white; 
+
+}
+.bg3 { 
+    background-color: #94101b; 
+    color: white; 
+}
+.btn-custom { 
+    background-color: #D4AF37; 
+    color: #FFFFFF; 
+    border: none; 
+}
+.navidad-font2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 200;
+    font-size: 2.0rem;
+}
+
+.hover-shadow {
+  transition: transform 0.3s ease, 
+  box-shadow 0.3s ease;
+}
+
+.hover-shadow:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 8px 20px rgba(15, 15, 15, 0.781); 
+}
