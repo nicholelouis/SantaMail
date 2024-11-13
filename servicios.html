@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contacto | SantaMail</title>
+  <title>Servicios | SantaMail</title>
   <link rel="icon" href="img/logo.png" type="image/png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
@@ -20,20 +20,33 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-custom">
             <div class="container-fluid d-flex align-items-center justify-content-center">
-            <div class="d-flex">
-                <a class="nav-link" href="#">Inicio</a>
-                <a class="nav-link ms-3" href="#">Servicios</a>
-            </div>
-            <a class="navbar-brand navidad-font mx-5" href="#">SantaMail</a>
-            <div class="d-flex">
-                <a class="nav-link" href="galeria.html">Galería</a>
+              <div class="d-flex">
+                <a class="nav-link" href="index.html">Inicio</a>
+                <a class="nav-link ms-3" href="servicios.html">Servicios</a>
+              </div>
+              <a class="navbar-brand navidad-font mx-5" href="index.html">SantaMail</a>
+              <div class="d-flex">
+                <a class="nav-link" href="testimonios.html">Testimonios</a>
                 <a class="nav-link ms-3" href="contacto.html">Contacto</a>
+              </div>
             </div>
-            </div>
-        </nav>
+          </nav>
     </header>
-    <div class="container-fluid fondo-imagen d-flex align-items-center justify-content-center">
-        <h1 class="text-light navidad-font">Nuestros Servicios</h1>
+
+    <div class="container-fluid fondo-imagen mb-5">
+        <!-- breadcrumbs -->
+        <nav aria-label="breadcrumb" >
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" style="color: #f0f0f0a2;" aria-current="page">Inicio</li>
+          </ol>
+        </nav>
+        <!-- fin breadcrumbs -->
+        <div class="row">
+          <div class="col-12 d-flex flex-column align-items-center justify-content-center text-center">
+            <h1 class="mb-4 navidad-font mt-10">Nuestros Servicios</h1>
+            <img src="./img/logo.png" width="250" alt="SantaMail Logo">
+          </div>
+        </div>
       </div>
     
       <!-- Carrusel de Imágenes -->
@@ -79,16 +92,16 @@
           <div class="modal-content">
             <div class="modal-header">
               <h1 class="modal-title fs-5" id="exampleModalLabel">Certificado</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>
-                    Es una carta con dedicatoria del mismisimo Santa Claus en la que te dedicara unas bonitas palabras.
+                    Es un cerificado firmado por Santa Claus para cualquier persona que se haya portado bien en este año.
+                    ¿Y tú, te has portado bien?
                 </p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-primary">20.99€</button>
             </div>
           </div>
         </div>
@@ -103,13 +116,12 @@
             </div>
             <div class="modal-body">
                 <p>
-                    Se trata de una postal que te muestra que Santa Claus va a ir a tu casa desde el polo norte con sus renos.
-                    ¿Quieres conocer a Rodolfo?.
+                    Es una carta con dedicatoria del mismisimo Santa Claus en la que te dedicara unas bonitas palabras.
                 </p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-primary">9.99€</button>
             </div>
           </div>
         </div>
@@ -124,13 +136,13 @@
             </div>
             <div class="modal-body">
                 <p>
-                    Se trata de una lista de personas que tendran regalos estas navidades.
-                    ¿Tú serás uno de los elegidos?
+                    Se trata de una postal que te muestra que Santa Claus va a ir a tu casa desde el polo norte con sus renos.
+                    ¿Quieres conocer a Rodolfo?.
                 </p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-primary">5.99€</button>
             </div>
           </div>
         </div>
@@ -145,13 +157,13 @@
             </div>
             <div class="modal-body">
                 <p>
-                    Es un cerificado firmado por Santa Claus para cualquier persona que se haya portado bien en este año.
-                    ¿Y tú, te has portado bien?
+                    Es una lista de los niños que se han portado bien y tendran regalos estas navidades.
+                    ¿Te mereces estar en la lista?
                 </p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-primary">29.98€</button>
             </div>
           </div>
         </div>
@@ -162,16 +174,16 @@
       <div class="container my-5">
         <h2 class="text-center navidad-font mb-4">Las Cartas de Santa</h2>
         <div class="row g-4">
-            <div class="col-12 col-sm-6 col-md-6">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <a class="btn" data-bs-toggle="modal" href="#carta1" role="button"><img src="./img/letter1.jpeg" class="img-fluid shadow-sm hover-shadow rounded" alt="Imagen 4"></a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-6">
+            </div> 
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <a class="btn" data-bs-toggle="modal" href="#carta2" role="button"><img src="./img/letter2.jpeg" class="img-fluid shadow-sm hover-shadow rounded" alt="Imagen 4"></a>
             </div>
-            <div class="col-12 col-sm-6 col-md-6">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <a class="btn" data-bs-toggle="modal" href="#carta3" role="button"><img src="./img/letter3.png" class="img-fluid shadow-sm hover-shadow rounded" alt="Imagen 4"></a>
             </div>
-            <div class="col-12 col-sm-6 col-md-6">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <a class="btn" data-bs-toggle="modal" href="#carta4" role="button"><img src="./img/letter4.jpeg" class="img-fluid shadow-sm hover-shadow rounded" alt="Imagen 4"></a>
             </div>
         </div>
